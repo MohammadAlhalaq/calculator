@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title> <!--Head For The Page-->
+    <link rel="stylesheet" href="css/main.css">       <!--My file Css-->
+  </head>
+  <body>
+    <section class="calc">
+      <article class="calc__output">-</article>
+      <article class="calc__delete">
+        <button class="calc__delete__undo" value="c" id="clear">C</button>
+        <button class="calc__delete__undo" value="Backspace" id="backspace">Backspace</button>
+      </article>
+      <article class="calc__number">
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+        <button value="." id="dot">.</button>
+        <button value="0">0</button>
+        <button value="=" class="calc__number__equal">=</button>
+      </article>
+      <article class="calc__operator">
+        <button value="+" data-operator = 'o'>+</button>
+        <button value="-" data-operator = 'o'>-</button>
+        <button value="*" data-operator = 'o'>*</button>
+        <button value="/" data-operator = 'o'>/</button>
+      </article>
+    </section>
+    <audio src="Fuzzy Beep.mp3" ></audio>
+    <script src="js/index.js"></script><!--My File JS-->
+  </body>
+</html>
